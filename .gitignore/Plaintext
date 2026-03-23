@@ -1,0 +1,10 @@
+# Ignore Python cache
+**/__pycache__/
+*.pyc
+
+# Ignore MLflow local tracking
+mlruns/
+mlflow.db
+
+# Ignore large data files (keep your repo light)
+src/data/raw/homes.csv
